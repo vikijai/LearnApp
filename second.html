@@ -109,7 +109,7 @@
 <script>
   // Your web app's Firebase configuration
   var firebaseConfig = {
-    apiKey: "AIzaSyDlSh88jJ7wPTf7x3WmF-WmMn4DJwUhO5w",
+    apiKey: "apikey",
     authDomain: "vikinew-dc0d7.firebaseapp.com",
     databaseURL: "https://vikinew-dc0d7.firebaseio.com",
     projectId: "vikinew-dc0d7",
@@ -291,7 +291,7 @@
 
             }
         };
-        xhttp.open("POST", "https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAYQ9ZO3l40emTgqjqcmoy1HjBMH2vsWSA", true);
+        xhttp.open("POST", "https://vision.googleapis.com/v1/images:annotate?key=apikey", true);
         xhttp.setRequestHeader("Content-type", "application/json");
         xhttp.send(JSON.stringify(data));
 
